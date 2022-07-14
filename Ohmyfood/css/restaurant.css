@@ -66,11 +66,14 @@
 }
 }
 
-.fa-heart {
+.fa-regular {
     font-size: 2rem;
     position: absolute;
-    top: 1.4rem;
-    right: 1rem;
+}
+
+.fa-solid {
+    font-size: 2rem;
+    position: relative;
 }
 
 .hearts .fa-solid {
@@ -84,4 +87,8 @@
 
 .fa-solid:hover {
     opacity: 1;
+}
+
+.fa-regular:hover {
+    opacity: 0;
 }

@@ -1,0 +1,94 @@
+.restau1_img {
+    max-width: 100%;
+    max-height: 32rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.restau1_menu {
+    margin-top: -4rem;
+    border-radius: 2rem 2rem 0 0;
+    background-color: #f6f6f6;
+    z-index: 1;
+    position: relative;
+}
+
+.restau1_header {
+    display: flex;
+    padding: 1rem 2rem 0 1rem;
+    justify-content: space-between;
+    box-shadow: none;
+}
+
+.restau1_hearts {
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
+
+.menu__items {
+    padding: 0 1rem;
+}
+
+.menu__items h3 {
+    font-weight: 400;
+    padding-bottom: 0.5rem;
+    position: relative;
+}
+
+.menu__items h3::after {
+    content: "";
+    width: 3rem;
+    height: 0.25rem;
+    background-color: #99e2d0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.menu_item {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 0 0.5rem rgb(0 0 0 / 20%);
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+
+.item_text p,
+.item_text h4 {
+    margin: 0;
+}
+
+.menu_item .price {
+    display: flex;
+    align-items: flex-end;
+    font-weight: 700;
+    padding-left: 0.5rem;
+}
+
+.explorer_restau1 {
+    padding-bottom: 2.5rem;
+}
+
+@media (min-width: 1200px) {
+    .submenu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .menu_item {
+        flex-wrap: nowrap;
+    }
+}
+
+
+
+
+
+.fa-arrow-left {
+    position: absolute;
+    left: 2.3rem;
+    top: 2.3rem;
+    color: black;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,95 @@
+/* FONCTIONNEMENT */
+
+.functioning {
+    padding: 2rem 1rem;
+}
+
+.functioning h2 {
+    margin-top: 0;
+}
+
+.functioning ol {
+    padding-left: 0;
+}
+
+.steps:first-child {
+    margin-top: 0;
+}
+
+.steps:last-child {
+    margin-bottom: 0;
+}
+
+.steps {
+    padding: 1.5rem;
+    margin: 1rem 0 1rem 0.75rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+    border-radius: 1.25rem;
+    background-color: #f6f6f6;
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-wrap: nowrap;
+}
+
+.steps.one:before {
+    counter-increment: compteListe 1;
+    content: counter(compteListe) " ";
+    background: #9356dc;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    left: -0.75rem;
+}
+
+.steps.two:before {
+    counter-increment: compteListe 2;
+    content: counter(compteListe) " ";
+    background: #9356dc;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    left: -0.75rem;
+}
+
+.steps.three:before {
+    counter-increment: compteListe 3;
+    content: counter(compteListe) " ";
+    background: #9356dc;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    left: -0.75rem;
+}
+
+.icons {
+    margin-right: 1rem;
+    color: #7e7e7e;
+}
+
+@media (min-width: 850px) {
+    .functioning ol {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    .steps {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

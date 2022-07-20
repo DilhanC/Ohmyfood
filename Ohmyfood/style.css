@@ -4,14 +4,8 @@
 @import url("./css/header.css");
 @import url("./css/restaurant.css");
 @import url("./css/footer.css");
-@import url("./restau.css");
-
-/* *, 
-::before
-::after
- {
-    box-sizing: border-box;
-} */
+@import url("./css/restau.css");
+@import url("./css/loader.css");
 
 main {
     max-width: 1440px;

@@ -5,6 +5,7 @@
     padding-top: 1rem;
     padding-bottom: 2rem;
     background-color: #f6f6f6;
+    border-radius: 0 0 1rem 1rem;
 }
 
 .explorer p {
@@ -28,4 +29,5 @@
 .explorer button:hover {
     transform: scale(1.02);
     opacity: 0.9;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }

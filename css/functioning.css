@@ -32,6 +32,15 @@
     flex-wrap: nowrap;
 }
 
+.steps:hover {
+    background-color: #9256dc26;
+    cursor: pointer;
+}
+
+.steps:hover i {
+    color:#9356dc
+}
+
 .steps.one:before {
     counter-increment: compteListe 1;
     content: counter(compteListe) " ";

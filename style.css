@@ -7,6 +7,10 @@
 @import url("./css/restau.css");
 @import url("./css/loader.css");
 
+* {
+    box-sizing: border-box;
+}
+
 main {
     max-width: 1440px;
     margin: 0 auto;

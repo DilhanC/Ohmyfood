@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap');
-@import url("./css/explorer.css");
-@import url("./css/functioning.css");
-@import url("./css/header.css");
-@import url("./css/restaurant.css");
-@import url("./css/footer.css");
-@import url("./css/restau.css");
-@import url("./css/loader.css");
+@import url("/css/explorer.css");
+@import url("/css/functioning.css");
+@import url("/css/header.css");
+@import url("/css/restaurant.css");
+@import url("/css/footer.css");
+@import url("/css/restau.css");
+@import url("/css/loader.css");
 
 * {
     box-sizing: border-box;
